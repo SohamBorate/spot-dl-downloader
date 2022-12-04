@@ -1,0 +1,39 @@
+{
+  "name": "spot-dl-downloader",
+  "version": "1.0.5",
+  "description": "module for spot-dl",
+  "main": "./lib/Downloader.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node .",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SohamBorate/spot-dl-downloader.git"
+  },
+  "keywords": [
+    "spot-dl",
+    "youtube",
+    "spotify",
+    "music"
+  ],
+  "author": "SohamBorate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SohamBorate/spot-dl-downloader/issues"
+  },
+  "homepage": "https://github.com/SohamBorate/spot-dl-downloader#readme",
+  "dependencies": {
+    "browser-id3-writer": "^4.4.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "spotify-web-api-node": "^5.0.2",
+    "stream": "^0.0.2",
+    "youtube-sr": "^4.3.0",
+    "ytdl-core": "^4.11.0"
+  }
+}
